@@ -4,6 +4,11 @@
     padding: 0;
 }
 
+.active-nav {
+    border-left: 8px solid #F58B35;
+    padding-left: 17px;
+}
+
 body {
     background-color: #f4f4f4;
 }

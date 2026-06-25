@@ -54,11 +54,15 @@ if ($_SERVER['REQUEST_METHOD'] == 'POST') {
             </div>
         </div>
 
-        <a href="#" class="menu-item link-box">
+        <a href="../index.html" class="menu-item link-box">
             <i class="fa-solid fa-house"></i> Home
         </a>
 
-        <a href="#" class="menu-item link-box">
+        <a href="../Tickets-pagina/Tickets.php" class="menu-item link-box active-nav">
+            <i class="fa-solid fa-ticket"></i> Tickets Kopen
+        </a>
+
+        <a href="../Eventen/Index.php" class="menu-item link-box">
             <i class="fa-solid fa-calendar"></i> Evenementen
         </a>
 
