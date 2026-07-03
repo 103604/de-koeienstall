@@ -1,0 +1,125 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+body {
+    background-color: #f4f4f4;
+}
+.wrapper {
+    display: flex;
+    width: 100%;
+    min-height: 100vh;
+    background-color: #f4f4f4;
+}
+.menu {
+    width: 350px;
+    background-color: #fff;
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+    border-right: 8px solid #fff;
+}
+.menu-item {
+    background-color: #000;
+    color: #fff;
+    padding: 30px;
+}
+.top-box {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.logo-text {
+    font-family: 'Onest', sans-serif;
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 1.2;
+}
+.logo-badge {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    font-family: 'Oswald', sans-serif;
+    font-weight: 700;
+    font-size: 10px;
+    border: 2px solid #fff;
+    width: 80px;
+}
+.badge-black {
+    background-color: #fff;
+    color: #000;
+    padding: 2px 0;
+    font-size: 12px;
+}
+.badge-orange {
+    background-color: #F58B35;
+    color: #fff;
+    padding: 2px 0;
+}
+.badge-white {
+    background-color: #fff;
+    color: #000;
+    padding: 2px 0;
+}
+.link-box {
+    font-family: 'Onest', sans-serif;
+    font-weight: 700;
+    font-size: 22px;
+    text-decoration: none;
+    display: flex;
+    align-items: center;
+    gap: 15px;
+}
+.link-box i {
+    width: 30px;
+}
+.social-box {
+    flex-grow: 1;
+    display: flex;
+    align-items: flex-end;
+    gap: 15px;
+}
+.social-icon {
+    background-color: #e0e0e0;
+    color: #999;
+    width: 45px;
+    height: 45px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-decoration: none;
+    font-size: 24px;
+}
+.main {
+    flex-grow: 1;
+    display: flex;
+    flex-direction: column;
+}
+.header {
+    height: 50vh;
+    background: radial-gradient(circle at top, black 45%, orange);
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    overflow: hidden;
+}
+.header h1 {
+    color: #fff;
+    font-family: 'Knewave', system-ui;
+    font-size: 100px;
+    letter-spacing: 2px;
+    z-index: 2;
+}
+.orange-triangle {
+    position: absolute;
+    bottom: 0;
+    right: 0;
+}
+.text{
+    font-family: 'Onest', sans-serif;
+    font-weight: 700;
+    font-size: 22px;
+    text-align: center;
+}
